@@ -7,7 +7,7 @@ This project is a Python script designed to run on an M5Stack device, providing 
 - **Adjustable Baud Rate**: Cycle through common UART baud rates with a single button press, including 9600, 115200, 230400, and up to 921600. The current baud rate is dynamically displayed on the screen.
 - **Send Commands Easily**: Send a "help" command to the UART-connected device by pressing a designated button. The button label temporarily changes color as visual feedback.
 - **Live Data Display**: Monitor incoming UART data on the M5Stack’s LCD screen. The screen refreshes periodically to maintain readability.
-- **Data Logging**: All received UART data is logged to an SD card for future analysis.
+- **Data Logging**: All received UART data is logged to an SD card for future analysis. (not implemented yet)
 - **Battery Status Monitoring**: The screen title displays the M5Stack battery level, helping users keep track of power status during operation.
 
 ## Usage
